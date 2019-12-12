@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodingChallenge.Data.Classes
 {
-    public class Castellano : Idioma, OperacionesIdiomas
+    public class Castellano : Idioma
     {
         private Dictionary<string, string> FrasesArray = new Dictionary<string, string>();
 
